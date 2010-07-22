@@ -1,7 +1,33 @@
 = pasteboaRb
 
-Description goes here.
+A Ruby interface to Mac OS X's Pasteboard
 
+== Installation
+	
+	gem install pasteboaRb
+
+== Usage
+
+=== Copying
+	
+	"text".to_pboard :general (default)
+	
+	String.to_pb (alias of to_pboard)
+	
+	1.to_pb :find
+	
+	"text".to_pb :ruler
+	
+	"text".to_pb :font
+
+=== Pasting
+	
+	paste :general (default)
+	paste
+	paste :find
+	paste :ruler
+	paste :font
+	
 == Note on Patches/Pull Requests
  
 * Fork the project.
@@ -14,4 +40,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Rafael Magana. See LICENSE for details.
+Copyright (c) 2010 Rafael Magaña. See LICENSE for details.
