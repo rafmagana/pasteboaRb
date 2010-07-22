@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
      "lib/pasteboarb/platform.rb",
      "lib/pasteboarb/platforms/macosx.rb",
      "lib/pasteboarb/platforms/unknown.rb",
+     "pasteboaRb.gemspec",
      "test/helper.rb",
      "test/test_pasteboaRb.rb"
   ]
