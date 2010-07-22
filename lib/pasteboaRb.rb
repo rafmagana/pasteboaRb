@@ -1,0 +1,1 @@
+require 'pasteboarb/core-ext/object'
